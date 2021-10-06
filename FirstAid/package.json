@@ -1,47 +1,22 @@
 {
-  "name": "FirstAid",
-  "version": "0.0.1",
-  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
   },
   "dependencies": {
-    "@capacitor/android": "3.1.2",
-    "@capacitor/app": "1.0.2",
-    "@capacitor/core": "3.1.2",
-    "@capacitor/haptics": "1.0.2",
-    "@capacitor/keyboard": "1.0.2",
-    "@capacitor/status-bar": "1.0.2",
-    "@ionic/vue": "^5.4.0",
-    "@ionic/vue-router": "^5.4.0",
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0-0",
-    "vue-router": "^4.0.0-0"
+    "expo": "~42.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@capacitor/cli": "3.1.2",
-    "@ionic/lab": "3.2.10",
-    "@types/jest": "^24.0.19",
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0-0",
-    "@vue/eslint-config-typescript": "^5.0.2",
-    "@vue/test-utils": "^2.0.0-0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0",
-    "typescript": "~3.9.3",
-    "vue-jest": "^5.0.0-0"
+    "@babel/core": "^7.9.0"
   },
-  "description": "An Ionic project"
+  "private": true
 }
